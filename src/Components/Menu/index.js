@@ -29,6 +29,7 @@ const MenuComponent = () => {
                 <img src={ CV }/>
                 <a href="#">Mi CV</a>
                 <img src={ Ellipse }/>
+                <a href="#">Daniel</a>
                 <select name="type">
                     <opcion disable>Daniel</opcion>
                     <option value="item1">item1</option>
