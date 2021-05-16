@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.scss'
+import { Link } from "react-router-dom";
 import icon1 from '../../assets/vector6.svg'
 import icon2 from '../../assets/vector7.svg'
 import icon3 from '../../assets/vector8.svg'
@@ -12,12 +13,15 @@ const CardsComponent = () => {
 
 			<div class="row">
 
-				<div class="col">
-					<div class="card" style={{width: '30rem'}}>
+				<div class="col-lg-6 ">
+
+					<div class="card mb-5">
+						<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon4 }/>
 						<div class="card-body">
-							<img class="card-img bg-primary p-3" style={{width: '5rem'}} src={ icon4 }/>
-							<h2 class="card-title">Solicitudes de creacion de empresas</h2>
-						</div>
+						<h2 class="card-title">
+							<Link to="/aprobacion" >Solicitudes de creacion de empresas</Link>
+						</h2>
+					</div>
 
 						<div class="card-footer text-muted m-1">
 							<img src={ time }/>
@@ -25,9 +29,10 @@ const CardsComponent = () => {
 						</div>
 					</div>
 
-					<div class="card" style={{width: '30rem'}}>
+					<div class="card mb-5">
+					<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon1 }/>
 						<div class="card-body">
-							<img class="card-img bg-primary p-3" style={{width: '5rem'}} src={ icon1 }/>
+					
 							<h2 class="card-title">Indicadores</h2>
 						</div>
 
@@ -38,10 +43,12 @@ const CardsComponent = () => {
 					</div>
 				</div>
 
-				<div class="col">
-					<div class="card" style={{width: '30rem'}}>
+				<div class="col-lg-6">
+
+					<div class="card mb-5">
+					<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon2 }/>
 						<div class="card-body">
-							<img class="card-img bg-primary p-3" style={{width: '5rem'}} src={ icon2 }/>
+							
 							<h2 class="card-title">Inscripcion de empleados en empresas</h2>
 						</div>
 
@@ -51,9 +58,10 @@ const CardsComponent = () => {
 						</div>
 					</div>
 
-					<div class="card" style={{width: '30rem'}}>
+					<div class="card mb-5">
+					<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon3 }/>
 						<div class="card-body">
-							<img class="card-img bg-primary p-3" style={{width: '5rem'}} src={ icon3 }/>
+							
 							<h2 class="card-title">Gestion de usuarios</h2>
 						</div>
 

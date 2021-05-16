@@ -15,7 +15,7 @@ const MenuComponent = () => {
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
     return (
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
 
                 <a class="navbar-brand" href="#">
@@ -30,23 +30,23 @@ const MenuComponent = () => {
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                    <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
+                    <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse justify-content-end`} id="navbarNav">
 
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav d-flex align-items-center">
 
-                            <li class="nav-item">
+                            <li class="nav-item d-flex p-3">
+                                <img src={ Search }/>
                                 <form>
-                                    <img src={ Search }/>
                                     <input class="form-control" type="text" placeholder="Buscar..."/>
                                 </form>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item d-flex p-3">
                                 <img src={ Administracion }/>
                                 <a class="nav-link" href="#">Administracion</a>
                             </li>
 
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown d-flex p-3">
                                  <img src={ Empleo }/>
 
                                     <a href="#" class="nav-link dropdown-toggle"
@@ -59,12 +59,12 @@ const MenuComponent = () => {
                                     </div>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="nav-item d-flex p-3">
                                 <img src={ CV }/>
                                 <a class="nav-link" href="#">Mi CV</a>
                             </li>
 
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown d-flex p-3">
                                 <img src={ Ellipse }/>
                                     <a href="#" class="nav-link dropdown-toggle"
                                     data-toggle="dropdown">Daniel</a>
