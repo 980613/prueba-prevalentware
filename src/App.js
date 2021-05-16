@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Menu from './Components/Menu';
 import Cards from './Components/Cards';
 import AprobacionEmpresas from './Components/AprobacionEmpresas';
