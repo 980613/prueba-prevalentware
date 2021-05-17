@@ -70,14 +70,12 @@ const AprobacionEmpresas = () => {
                 <div>
                     <img class='bg bg-light p-5' src={ LogoEmpresa }/>
                 </div>
-                <div class='buttonsStyle'>
+                <div>
                     <div>
-                        <img src= { aprovar }/>
-                        <a className="buttons" href="#">Aprovar Empresa</a>
+                        <a className="buttons" href="#"><img src= { aprovar }/> Aprovar Empresa</a>
                     </div>
                     <div>
-                        <img src= { rechazar }/>
-                        <a className="buttons" href="#">Rechazar Empresa</a>
+                        <a className="buttons" href="#"><img src= { rechazar }/>Rechazar Empresa</a>
                     </div>
                 </div>
             </div>
@@ -87,13 +85,13 @@ const AprobacionEmpresas = () => {
                     <form>
                         <div class="form-group">
                             <label class="form-text text-muted" for="Nombre">Nombre de la empresa</label>
-                            <input type="text" class="form-control" placeholder=""/>
+                            <input type="text" class="form-control" placeholder="PREVALENTWARE"/>
 
                             <label class="form-text text-muted" for="Nombre">Tipo de identificacion</label>
-                            <input type="text" class="form-control" placeholder=""/>
+                            <input type="text" class="form-control" placeholder="NIT"/>
 
                             <label class="form-text text-muted" for="Nombre">Numero de empleados</label>
-                            <input type="text" class="form-control" placeholder=""/>
+                            <input type="text" class="form-control" placeholder="1-10"/>
                         </div>
                     </form>
                 </div>
@@ -101,9 +99,9 @@ const AprobacionEmpresas = () => {
                     <form>
                         <div class="form-group">
                             <label class="form-text text-muted" for="Nombre">Razon Social</label>
-                            <input type="text" class="form-control" placeholder=""/>
+                            <input type="text" class="form-control" placeholder="PREVALENTEWARE S.A.S"/>
                             <label class="form-text text-muted" for="Nombre">Identificacion</label>
-                            <input type="text" class="form-control" placeholder=""/>
+                            <input type="text" class="form-control" placeholder="901375150-4"/>
                         </div>
                     </form>
                     <button class="btn btn-light mt-5 mb-5" onClick={showModal}>  <img src= { clip }/> Ver archivos adjuntos</button> 
