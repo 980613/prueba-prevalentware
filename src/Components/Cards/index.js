@@ -9,14 +9,14 @@ import time from '../../assets/Time.svg'
 
 const CardsComponent = () => {
     return (
-        <div class="container mt-5">
+        <div class="container cardsContainer">
 
 			<div class="row">
 
 				<div class="col-lg-6 ">
 
 					<div class="card mb-5">
-						<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon4 }/>
+						<img class="imgStyle card-img-top imgStyle p-3" style={{width: '5rem'}} src={ icon4 }/>
 						<div class="card-body">
 						<h2 class="card-title">
 							<Link to="/aprobacion" >Solicitudes de creacion de empresas</Link>
@@ -30,7 +30,7 @@ const CardsComponent = () => {
 					</div>
 
 					<div class="card mb-5">
-					<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon1 }/>
+					<img class="card-img-top imgStyle p-3" style={{width: '5rem'}} src={ icon1 }/>
 						<div class="card-body">
 					
 							<h2 class="card-title">Indicadores</h2>
@@ -46,7 +46,7 @@ const CardsComponent = () => {
 				<div class="col-lg-6">
 
 					<div class="card mb-5">
-					<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon2 }/>
+					<img class="card-img-top imgStyle p-3" style={{width: '5rem'}} src={ icon2 }/>
 						<div class="card-body">
 							
 							<h2 class="card-title">Inscripcion de empleados en empresas</h2>
@@ -59,7 +59,7 @@ const CardsComponent = () => {
 					</div>
 
 					<div class="card mb-5">
-					<img class="card-img-top bg-primary p-3" style={{width: '5rem'}} src={ icon3 }/>
+					<img class="card-img-top imgStyle p-3" style={{width: '5rem'}} src={ icon3 }/>
 						<div class="card-body">
 							
 							<h2 class="card-title">Gestion de usuarios</h2>

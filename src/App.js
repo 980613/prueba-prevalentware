@@ -18,10 +18,6 @@ function App() {
         </Route>
       </Switch>
     </Router>
-    <Modal
-        isShowing={isShowing}
-        hide={toggle}
-      />
     </>
   );
 }
