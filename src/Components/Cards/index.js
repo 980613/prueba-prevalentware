@@ -19,7 +19,7 @@ const CardsComponent = () => {
 						<img class="imgStyle card-img-top imgStyle p-3" style={{width: '5rem'}} src={ icon4 }/>
 						<div class="card-body">
 						<h2 class="card-title">
-							<Link to="/aprobacion" >Solicitudes de creacion de empresas.</Link>
+							<Link to="/aprobacion" >Solicitudes de creacion de empresas futuro.</Link>
 						</h2>
 					</div>
 
